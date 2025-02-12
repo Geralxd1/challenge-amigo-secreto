@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", serif;
 }
 
 body {
@@ -32,11 +33,16 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    /* flex: 40%; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    flex-wrap: wrap;
+}
+
+.image-amigo {
+    max-height: 100%;
 }
 
 /* Sección de entrada */
@@ -159,4 +165,12 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.name-list {
+    color: #05DF05;
+    display: flex;
+    background-color: #4B69FD;
+    width: 100%;
+    flex-wrap: wrap;
 }
