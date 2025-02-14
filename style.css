@@ -167,10 +167,12 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+.button-draw:disabled{
+    background-color: #05DF05;
+}
+
 .name-list {
-    color: #05DF05;
     display: flex;
-    background-color: #4B69FD;
     width: 100%;
     flex-wrap: wrap;
 }
